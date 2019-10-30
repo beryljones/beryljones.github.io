@@ -5,16 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 1.  **Jones, B.M.**, Rao, V.D., Gernat, T., Jagla, T., Cash-Ahmed, A., Rubin, B.E.R., Comi, T.J., Bhogale, S., Husain, S.S., Blatti, C., Middendorf, M., Sinha, S., Chandrasekaran, S., and Robinson, G.E. In prep. Behavioral specialists evolve from latent plasticity in gene regulatory networks.
 
 2.  Rubin, B.E.R., **Jones, B.M.**, Hunt, B.G., and Kocher, S.D. 2019. Rate variation in the evolution of non-coding DNA associated with social evolution in bees. Philosophical Transactions of the Royal Society B, 374:20180247. doi.org/10.1098/rstb.2018.0247
